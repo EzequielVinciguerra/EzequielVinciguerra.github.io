@@ -9,7 +9,7 @@ export function ProjectsSection() {
     <section id="proyectos" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Proyectos</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4">Projects</h2>
           <div className="w-20 h-1 bg-primary mx-auto"></div>
         </div>
 
@@ -42,20 +42,13 @@ export function ProjectsSection() {
                 </div>
 
                 <div className="flex gap-2 pt-2">
-                  {project.status === "En desarrollo" ? (
+                  {project.status === "In Progress" ? (
                     <Badge variant="outline" className="text-primary border-primary/50">
-                      En desarrollo
+                        In Progress
                     </Badge>
                   ) : (
                     <>
-                      <Button size="sm" variant="outline" className="flex-1 bg-transparent" disabled>
-                        <Github className="w-4 h-4 mr-2" />
-                        Código
-                      </Button>
-                      <Button size="sm" variant="outline" className="flex-1 bg-transparent" disabled>
-                        <ExternalLink className="w-4 h-4 mr-2" />
-                        Demo
-                      </Button>
+                      
                     </>
                   )}
                 </div>

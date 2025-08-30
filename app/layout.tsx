@@ -25,7 +25,7 @@ export default function RootLayout({
     return (
         <html
             lang="es"
-            className="dark" /* quitá 'dark' si querés modo claro por defecto */
+            className="dark" 
             suppressHydrationWarning
         >
         <body className={`${GeistSans.variable} ${GeistMono.variable} font-sans`}>

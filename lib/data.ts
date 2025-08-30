@@ -50,7 +50,6 @@ export const skills = {
 export const education = {
   institution: "FASTA University",
   degree: "Computer Engineering",
-  status: "In progress",
 }
 
 export const projects = [
