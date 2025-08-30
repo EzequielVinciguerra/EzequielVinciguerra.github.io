@@ -46,8 +46,7 @@ export function ContactSection() {
             <div>
               <h3 className="text-2xl font-semibold mb-6">Let's Talk!</h3>
               <p className="text-muted-foreground text-pretty leading-relaxed">
-                I'm always open to new opportunities and interesting collaborations. If you have a project in mind or
-                simply want to connect, don't hesitate to contact me.
+                  Open to connect and collaborate on creative ideas.
               </p>
             </div>
 
