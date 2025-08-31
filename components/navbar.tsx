@@ -64,14 +64,18 @@ export function Navbar() {
           </div>
 
           {/* Desktop CTA */}
-          <div className="hidden md:block">
-            <Button asChild className="bg-primary hover:bg-primary/90">
-              <a href={personalInfo.cvUrl} target="_blank" rel="noopener noreferrer">
-                <Download className="w-4 h-4 mr-2" />
-                Download CV
-              </a>
-            </Button>
-          </div>
+            <div className="hidden md:block">
+                <Button asChild className="bg-primary hover:bg-primary/90">
+                    <a
+                        href="/cv/Ezequiel_Vinciguerra_CV.pdf"
+                        download="Ezequiel_Vinciguerra_CV.pdf"
+                        rel="noopener"
+                    >
+                        <Download className="w-4 h-4 mr-2" />
+                        Download CV
+                    </a>
+                </Button>
+            </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden">
